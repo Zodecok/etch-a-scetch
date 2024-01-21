@@ -1,0 +1,22 @@
+.rows {
+    display: flex;
+    
+
+}
+
+.item {
+    flex: 1;
+    background-color: grey;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beingHovered {
+    background-color: aquamarine;
+}
+
