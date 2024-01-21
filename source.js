@@ -39,11 +39,11 @@ function settingUp() {
         }
         
     });
-    // const btn = document.querySelector("button");
-    // btn.addEventListener("click", e => {
-    //     let gridValues = document.querySelectorAll(".item");
-    //     Array.from(gridValues).forEach(el => el.removeAttribute("class", "beingHovered"));
-    // });
+    const btn = document.querySelector("button");
+    btn.addEventListener("click", e => {
+        let gridValues = document.querySelectorAll(".item");
+        Array.from(gridValues).forEach(el => el.classList.remove("beingHovered"));
+    });
     
 }
 
